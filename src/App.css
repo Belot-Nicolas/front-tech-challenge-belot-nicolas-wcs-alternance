@@ -1,4 +1,68 @@
-*{
+* {
   margin: 0;
   padding: 0;
+}
+
+body{
+  background-image: url('https://cdn.pixabay.com/photo/2017/12/01/14/54/beach-2991021_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.titleAndInputPost {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleApp {
+  margin-bottom: 5vh;
+  font-size: 7vh;
+}
+
+.titleAndInputPost p {
+  font-size: 4vh;
+  margin-bottom: 3vh;
+}
+
+.formPostName input {
+  width: 26vw;
+  height: 5vh;
+}
+
+.formPostName button {
+  margin-left: 4vw;
+  width: 10vw;
+  height: 4vh;
+}
+
+.titleAndListeCharacters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleAndListeCharacters h2{
+margin-top: 10vh;
+font-size: 5vh;
+margin-bottom: 5vh;
+}
+
+.listeCharacters{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 2vw;
+  list-style: none;
+}
+
+.character{
+font-size: 4vh;
 }
