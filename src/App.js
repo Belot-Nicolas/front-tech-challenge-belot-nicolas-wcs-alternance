@@ -40,7 +40,7 @@ function App() {
           <button type="submit" onClick={handleSubmit}>
             Envoyer
           </button>
-        </div>
+        </div> 
       </div>
 
       <div className="titleAndListeCharacters">
